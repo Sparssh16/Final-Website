@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Ram Food Products - Traditional Murabba</title>
+    <meta name="description" content="Traditionally prepared Murabba varieties by Shri Ram Food Products - Amla, Gajar, Harad, Belgiri, and Seb Murabba made with natural ingredients.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-svg" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="40" cy="40" r="30" fill="#d32f2f" />
+                    <text x="40" y="45" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Shri Ram</text>
+                    <text x="130" y="42" text-anchor="start" fill="#333" font-size="24" font-weight="bold">Shri Ram</text>
+                    <text x="130" y="62" text-anchor="start" fill="#d32f2f" font-size="16">Food Products</text>
+                </svg>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#benefits">Health Benefits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Traditional Murabba, Naturally Prepared</h1>
+                <p>Delicious, nutritious, and prepared with care under the guidance of medical expertise</p>
+                <a href="#products" class="btn">Explore Our Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Murabba Collection</h2>
+            <p class="section-description">Discover our range of traditionally prepared Murabba varieties, rich in natural goodness and flavor</p>
+
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="fruit">Fruit Based</button>
+                <button class="filter-btn" data-filter="vegetable">Vegetable Based</button>
+                <button class="filter-btn" data-filter="medicinal">Medicinal</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="fruit medicinal">
+                    <div class="product-image">
+                        <img src="assets/amla murraba.png" alt="Amla (Gooseberry) Murabba" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Rich in Vitamin C</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Amla Murabba</h3>
+                        <p>Indian Gooseberry Preserve rich in natural Vitamin C and antioxidants. Known for boosting immunity and digestion.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-leaf"></i> Natural</span>
+                            <span><i class="fas fa-medkit"></i> Medicinal</span>
+                            <span><i class="fas fa-apple-alt"></i> Fruit Based</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="vegetable">
+                    <div class="product-image">
+                        <img src="assets/gajar murabba.png" alt="Gajar (Carrot) Murabba" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Vitamin A Rich</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Gajar Murabba</h3>
+                        <p>Carrot preserve packed with beta-carotene and natural sweetness. Excellent for eye health and skin nourishment.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-leaf"></i> Natural</span>
+                            <span><i class="fas fa-carrot"></i> Vegetable</span>
+                            <span><i class="fas fa-eye"></i> Eye Health</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="medicinal">
+                    <div class="product-image">
+                        <img src="assets/hero-background.png" alt="Harad (Chebulic Myrobalan) Murabba" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Digestive Aid</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Harad Murabba</h3>
+                        <p>Chebulic Myrobalan preserve with traditional Ayurvedic benefits. Supports digestive health and natural detoxification.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-leaf"></i> Natural</span>
+                            <span><i class="fas fa-medkit"></i> Medicinal</span>
+                            <span><i class="fas fa-stomach"></i> Digestive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="fruit">
+                    <div class="product-image">
+                        <img src="assets/belgri murabba.png" alt="Belgiri (Wood Apple) Murabba" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Fiber Rich</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Belgiri Murabba</h3>
+                        <p>Wood Apple preserve that combines unique flavor with nutritional benefits. High in dietary fiber and minerals.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-leaf"></i> Natural</span>
+                            <span><i class="fas fa-apple-alt"></i> Fruit Based</span>
+                            <span><i class="fas fa-heartbeat"></i> Heart Healthy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="fruit">
+                    <div class="product-image">
+                        <img src="assets/seb-murabba.png" alt="Seb (Apple) Murabba" class="placeholder-image">
+                        <div class="image-overlay">
+                            <span>Heart Healthy</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Seb Murabba</h3>
+                        <p>Apple preserve made with hand-picked apples. Contains natural pectin and antioxidants for heart and digestive health.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-leaf"></i> Natural</span>
+                            <span><i class="fas fa-apple-alt"></i> Fruit Based</span>
+                            <span><i class="fas fa-heartbeat"></i> Heart Healthy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Product Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-main">
+                    <img id="featuredImage" src="assets/amla murraba.png" alt="Amla Murabba" class="featured-image">
+                </div>
+                <div class="gallery-thumbnails">
+                    <img src="assets/amla murraba.png" alt="Amla Murabba" class="thumbnail active">
+                    <img src="assets/gajar murabba.png" alt="Gajar Murabba" class="thumbnail">
+                    <img src="assets/belgri murabba.png" alt="Belgiri Murabba" class="thumbnail">
+                    <img src="assets/seb-murabba.png" alt="Seb Murabba" class="thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Shri Ram Food Products</h2>
+                    <p>Shri Ram Food Products takes pride in offering traditionally prepared Murabba varieties that have been cherished for generations. What makes us unique is our commitment to quality and health, as our business is run by a doctor with
+                        a strong emphasis on hygiene and the use of natural ingredients.</p>
+
+                    <p>Our production process maintains the highest standards of cleanliness and safety, ensuring that every jar of Murabba not only delights your taste buds but also provides natural nutrients your body needs.</p>
+
+                    <p>We began as a small family business in Rohtak and have grown through word-of-mouth and the loyalty of customers who value our authentic preparation methods and affordable prices. We offer options for purchasing even in small quantities
+                        to make our products accessible to everyone.</p>
+
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-user-md feature-icon"></i>
+                            <h3>Doctor Supervised</h3>
+                            <p>Production overseen by medical professional ensuring health standards</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf feature-icon"></i>
+                            <h3>100% Natural</h3>
+                            <p>Only natural ingredients with no artificial additives</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-hand-holding-usd feature-icon"></i>
+                            <h3>Affordable</h3>
+                            <p>Quality products at prices accessible to everyone</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/amla murraba.png" alt="Hygienic food production" class="hygiene-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process">
+        <div class="container">
+            <h2>Our Production Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Ingredient Selection</h3>
+                        <p>We carefully select fresh, high-quality fruits and vegetables from trusted local farmers</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Hygienic Preparation</h3>
+                        <p>Our preparation follows strict hygienic protocols in a controlled environment</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Traditional Methods</h3>
+                        <p>We use time-tested traditional recipes and preparation methods</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Quality Control</h3>
+                        <p>Each batch undergoes quality checks to ensure consistency and excellence</p>
+                    </div>
+                </div>
+            </div>
+            <div class="process-image">
+                <img src="assets/belgri murabba.png" alt="Food production with hygiene standards" class="process-photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Health Benefits</h2>
+            <p class="section-description">Our Murabbas are not just delicious preserves; they're packed with natural goodness and wellness benefits</p>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>Immune Support</h3>
+                    <p>Rich in natural vitamins and antioxidants that help strengthen your immune system</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-stomach"></i>
+                    </div>
+                    <h3>Digestive Health</h3>
+                    <p>Contains natural fibers and compounds that aid digestion and gut health</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Heart Health</h3>
+                    <p>Many of our varieties contain nutrients known to support cardiovascular health</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Cognitive Function</h3>
+                    <p>Natural antioxidants that help protect brain cells and support mental clarity</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Energy Boost</h3>
+                    <p>Natural sugars and nutrients that provide sustained energy throughout the day</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Vision Support</h3>
+                    <p>Some varieties are rich in compounds that support eye health and vision</p>
+                </div>
+            </div>
+
+            <div class="benefits-table">
+                <h3>Nutritional Information by Product</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Key Nutrients</th>
+                            <th>Main Benefits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Amla Murabba</td>
+                            <td>Vitamin C, Antioxidants, Iron</td>
+                            <td>Immunity, Digestion, Skin Health</td>
+                        </tr>
+                        <tr>
+                            <td>Gajar Murabba</td>
+                            <td>Beta-carotene, Vitamin A, Fiber</td>
+                            <td>Vision, Skin Health, Digestion</td>
+                        </tr>
+                        <tr>
+                            <td>Harad Murabba</td>
+                            <td>Tannins, Antioxidants</td>
+                            <td>Digestive Health, Detoxification</td>
+                        </tr>
+                        <tr>
+                            <td>Belgiri Murabba</td>
+                            <td>Fiber, Vitamins, Minerals</td>
+                            <td>Digestion, Immunity, Heart Health</td>
+                        </tr>
+                        <tr>
+                            <td>Seb Murabba</td>
+                            <td>Pectin, Antioxidants, Vitamin C</td>
+                            <td>Heart Health, Cholesterol Management</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>I've been purchasing Amla Murabba from Shri Ram Food Products for over 5 years. The quality is consistent, and I appreciate the natural preparation methods. My entire family enjoys it daily for its health benefits.</p>
+                        <div class="testimonial-author">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Rohtak, Haryana</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>The Belgiri Murabba is exceptional - you can taste the quality and care that goes into making it. I appreciate that I can buy in small quantities, and the fact that it's overseen by a doctor gives me extra confidence.</p>
+                        <div class="testimonial-author">
+                            <h4>Sunita Sharma</h4>
+                            <p>Delhi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>As someone concerned about what goes into my food, I'm impressed by the transparency and natural approach of Shri Ram Food Products. Their Gajar Murabba has become a favorite in my household.</p>
+                        <div class="testimonial-author">
+                            <h4>Pradeep Singh</h4>
+                            <p>Chandigarh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Visit Our Store</h3>
+                            <p>Shri Ram Food Products<br> V.P.O Chandi, Jind Road<br> Rohtak, Haryana</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+91 9896121392<br> +91 8398927280</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>info@shriramfoods.com<br> orders@shriramfoods.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday - Saturday: 9:00 AM - 8:00 PM<br> Sunday: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Visit our store at V.P.O Chandi, Jind Road, Rohtak</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg class="logo-svg-footer" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="40" cy="40" r="30" fill="#d32f2f" />
+                        <text x="40" y="45" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Shri Ram</text>
+                        <text x="130" y="42" text-anchor="start" fill="#fff" font-size="24" font-weight="bold">Shri Ram</text>
+                        <text x="130" y="62" text-anchor="start" fill="#fff" font-size="16">Food Products</text>
+                    </svg>
+                    <p>Traditional murabba prepared with care, hygiene, and natural ingredients.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#benefits">Health Benefits</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-products">
+                    <h3>Our Products</h3>
+                    <ul>
+                        <li>Amla Murabba</li>
+                        <li>Gajar Murabba</li>
+                        <li>Harad Murabba</li>
+                        <li>Belgiri Murabba</li>
+                        <li>Seb Murabba</li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2023 Shri Ram Food Products. All Rights Reserved.</p>
+                <p>Created for educational purposes as part of a college assignment.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
